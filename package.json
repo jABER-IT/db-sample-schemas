@@ -1,0 +1,41 @@
+{
+  "name": "db-sample",
+  "version": "1.0.0",
+  "description": "Copyright (c) 2019 Oracle",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/oracle-samples/db-sample-schemas.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/oracle-samples/db-sample-schemas/issues"
+  },
+  "homepage": "https://github.com/oracle-samples/db-sample-schemas#readme",
+  "devDependencies": {
+    "apex-source-control": "^1.4.2"
+  }
+  "scripts": {
+    "apex-to-file" : "apex-source-control apex-to-file",
+    "file-to-apex" : "apex-source-control file-to-apex",
+    "new-conf-file" : "apex-source-control new-conf-file",
+    "switch-conf-file" : "apex-source-control switch-conf-file",
+    "read-conf-file" : "apex-source-control read-conf-file",
+    "generate-app-id" : "apex-source-control generate-app-id",
+    "uninstall-apex" : "apex-source-control uninstall-apex"
+ },
+
+  "scripts": {
+    "apex-to-file" : "apex-source-control apex-to-file",
+    "file-to-apex" : "apex-source-control file-to-apex",
+    "new-conf-file" : "apex-source-control new-conf-file",
+    "switch-conf-file" : "apex-source-control switch-conf-file",
+    "read-conf-file" : "apex-source-control read-conf-file",
+    "generate-app-id" : "apex-source-control generate-app-id",
+    "uninstall-apex" : "apex-source-control uninstall-apex"
+ },
+}
